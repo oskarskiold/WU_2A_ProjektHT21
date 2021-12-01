@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Koden nedan är kopierad från internet */
+    max-width: 100%; 
+} 
+
+#wrapper{
+    width: 100vw;
+    height: 200vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "he he he na na"
+    "se se se se se"
+    "se se se se se"
+    "se se se se se"
+    "dv ar ar ar rg"
+    "dv ar ar ar rg"
+    "fo fo fo fo fo"
+    ;
+}
+
+#header{
+    background: salmon;
+    grid-area: he;
+}
+
+#empty{
+    grid-area: dv;
+    background: seagreen;
+}
+
+#emptyright{
+    grid-area: dv;
+    background: white;
+}
+
+#emptyleft{
+    grid-area: rg;
+    background: white;
+}
+
+#footer{
+    grid-area: fo;
+    background: white;
+}
+
+#section{
+    grid-area: se;
+    background-image: url(https://images.unsplash.com/photo-1619738566066-81c6d589c80c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}
+
+#article{
+    grid-area: ar;
+    background: tomato;
+}
+
+#nav{
+    grid-area: na;
+    background: yellow;
+}
