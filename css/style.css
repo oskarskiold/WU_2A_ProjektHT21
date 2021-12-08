@@ -86,23 +86,25 @@
 }
 
 #om_oss{
-    background: violet;
+    background:rgb(240, 240, 240);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 5rem;
     height: 2rem;
     border-radius: 1.6rem;
+    text-decoration: none;
 }
 
 #meny{
-    background: white;
+    background:rgb(240, 240, 240);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 5rem;
     height: 2rem;
     border-radius: 1.6rem;
+    text-decoration: none;
 }
 
 #om_oss:hover{
@@ -120,3 +122,4 @@
 #styckestitel{
     font-size: 1.6rem;
 }
+
