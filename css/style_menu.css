@@ -41,41 +41,6 @@
     font-weight: bold;
 }
 
-#empty{
-    grid-area: dv;
-    background: seagreen;
-}
-
-#emptyright{
-    grid-area: dv;
-    background: white;
-}
-
-#emptyright{
-    grid-area: rg;
-    background: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
-}
-
-#footer{
-    grid-area: fo;
-    background: white;
-}
-
-#section{
-    grid-area: se;
-    background-image: url(https://images.unsplash.com/photo-1619738566066-81c6d589c80c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#article{
-    grid-area: ar;
-    background: rgb(240, 240, 240)
-}
-
 #nav{
     grid-area: na;
     display: flex;
@@ -123,12 +88,3 @@
 #meny:hover{
     font-weight: bold;
 }
-
-#stycke{
-    font-size: 1.2rem;
-}
-
-#styckestitel{
-    font-size: 1.6rem;
-}
-
