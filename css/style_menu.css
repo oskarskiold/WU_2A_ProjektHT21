@@ -14,7 +14,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 1fr 2fr 2fr;
     grid-template-areas: 
-    "he he he na na"
+    "lg he he na na"
     "le rb rb rb re"
     "le pr pr pr re"
     "le pr pr pr re"
@@ -22,11 +22,20 @@
     background-image: url(https://images.unsplash.com/photo-1506968430777-bf7784a87f23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
 }
 
+#logga{
+    grid-area: lg;
+    height: auto;
+    width: 170px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 #priser{
     grid-area: pr;
     display: flex;
     justify-content: space-evenly;
-    margin: 0.1rem;
+    margin: 10px;
     color: white;
     font-size: 1.2rem;
 }
@@ -63,14 +72,15 @@
 
 #sidans_titel{
     text-decoration: none;
-    height: 6rem;
-    width: 18rem;
+    height: 100px;
+    width: 1600px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5rem;
+    border-radius: 400px;
     color: black;
     background: salmon;
+    font-style: italic;
 }
 
 #sidans_titel:hover{
@@ -83,7 +93,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: .5rem;  
+    margin: 5px;  
 }
 
 #title{
@@ -100,26 +110,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 14rem;
-    height: 6rem;
-    border-radius: 5rem;
+    width: 200px;
+    height: 100px;
+    border-radius: 400px;
     text-decoration: none;
-    margin: 0.5rem;
+    margin: 5px; 
     color: black;
     background: salmon;
+    font-style: italic;
 }
 
 #meny{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 14rem;
-    height: 6rem;
-    border-radius: 5rem;
+    width: 200px;
+    height: 100px;
+    border-radius: 400px;
     text-decoration: none;
-    margin: 0.5rem;
+    margin: 5px; 
     color: black;
     background: salmon;
+    font-style: italic;
 }
 
 #om_oss:hover{
