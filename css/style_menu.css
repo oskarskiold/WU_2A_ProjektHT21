@@ -2,7 +2,7 @@
     margin: 0rem;
     padding: 0;
     box-sizing: border-box;
-    border-radius: 0.7rem;
+    border-radius: 0rem;
     /* Koden nedan är kopierad från internet */
     max-width: 100%; 
 } 
@@ -49,10 +49,11 @@
     display: flex;
     grid-area: rb;
     justify-content: center;
+    align-items: flex-end;
+    color: white;
 }
 
 #header{
-    background: salmon;
     grid-area: he;
     display: flex;
     justify-content: center;
@@ -62,6 +63,14 @@
 
 #sidans_titel{
     text-decoration: none;
+    height: 6rem;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+    color: black;
+    background: salmon;
 }
 
 #sidans_titel:hover{
@@ -74,7 +83,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: white
+    margin: .5rem;  
 }
 
 #title{
@@ -88,25 +97,29 @@
 }
 
 #om_oss{
-    background:rgb(240, 240, 240);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 2rem;
-    border-radius: 1.6rem;
+    width: 14rem;
+    height: 6rem;
+    border-radius: 5rem;
     text-decoration: none;
+    margin: 0.5rem;
+    color: black;
+    background: salmon;
 }
 
 #meny{
-    background:rgb(240, 240, 240);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 2rem;
-    border-radius: 1.6rem;
+    width: 14rem;
+    height: 6rem;
+    border-radius: 5rem;
     text-decoration: none;
+    margin: 0.5rem;
+    color: black;
+    background: salmon;
 }
 
 #om_oss:hover{
