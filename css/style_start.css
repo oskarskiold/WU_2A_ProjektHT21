@@ -36,7 +36,7 @@
     grid-area: he;
     display: flex;
     justify-content: center;
-    padding: 3rem;
+    padding: 30px;
     align-items: center;
     margin: 5px; 
 }
@@ -118,14 +118,6 @@
     color: black;
     background: salmon;
     font-style: italic;
-}
-
-#om_oss:hover{
-    font-weight: bold;
-}
-
-#meny:hover{
-    font-weight: bold;
 }
 
 #stycke{

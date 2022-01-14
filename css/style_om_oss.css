@@ -44,7 +44,7 @@
 
 #karta{
     grid-area: ka;
-    margin: 0.5rem;
+    margin: 5px;
     display: flex;
     justify-content: center;
 }
@@ -63,26 +63,26 @@
     grid-area: k1;
     display: flex;
     justify-content: center;
-    margin: 0.5rem;
+    margin: 5px;
 }
 
 #bild{
     grid-area: bi;
     background-image: url(https://images.unsplash.com/flagged/photo-1560873199-2769fae341b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
-    margin: 0.5rem;
+    margin: 5px;
 }
 
 #beskrivning{
     grid-area: bs;
     color: white;
-    margin: 0.5rem;
+    margin: 5px;
 }
 
 #header{
     grid-area: he;
     display: flex;
     justify-content: center;
-    padding: 3rem;
+    padding: 20px;
     align-items: center;
     margin: 5px;
 }
@@ -110,7 +110,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: .5rem; 
+    margin: 5px;
 }
 
 #om_oss{
@@ -139,13 +139,5 @@
     color: black;
     background: salmon;
     font-style: italic;
-}
-
-#om_oss:hover{
-    font-weight: bold;
-}
-
-#meny:hover{
-    font-weight: bold;
 }
 
